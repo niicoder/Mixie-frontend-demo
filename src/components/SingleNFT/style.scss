@@ -1,0 +1,32 @@
+.single-nft {
+  min-width: 300px;
+  width: 100%;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .nft-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+      // position: absolute; /* Take your picture out of the flow */
+      // top: 0;
+      // bottom: 0;
+      // left: 0;
+      // right: 0; /* Make the picture taking the size of it's parent */
+      // width: 100%; /* This if for the object-fit */
+      // height: 100%; /* This if for the object-fit */
+      // object-fit: cover; /* Equivalent of the background-size: cover; of a background-image */
+      // object-position: center;
+    }
+  }
+
+  .nft-descriptions {
+    padding: 2px 16px;
+  }
+}
